@@ -2,7 +2,7 @@
 format: revealjs
 ---
 
-# Hello World {background-iframe="index.html"}
+# Hello World {background-iframe="tsparticles/index.html"}
 
 ## Quarto 
 
