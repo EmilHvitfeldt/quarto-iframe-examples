@@ -76,7 +76,7 @@ tsParticles.load("tsparticles", {
       direction: "clockwise",
       animation: {
         enable: true,
-        speed: 200,
+        speed: 20,
         sync: false
       }
     },
@@ -122,40 +122,70 @@ tsParticles.load("tsparticles", {
       },
       image: [
         {
-          src: "https://recipes.tidymodels.org/logo.png",
-          width: 32,
-          height: 32
-        },
-        {
-          src: "https://parsnip.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        },
-        {
-          src: "https://tidymodels.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        },
-        {
-          src: "https://dials.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        },
-        {
-          src: "https://workflows.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        },
-        {
-          src: "https://yardstick.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        },
-        {
-          src: "https://hardhat.tidymodels.org/logo.png",
-          width: 27,
-          height: 32
-        }
+  src: "hexes/broom.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/dials.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/dplyr.png",
+  width: 27.7,
+  height: 32
+}, {
+  src: "hexes/ggplot2.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/hardhat.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/parsnip.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/purrr.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/recipes.png",
+  width: 32,
+  height: 32
+}, {
+  src: "hexes/rlang.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/rsample.png",
+  width: 27.7,
+  height: 32
+}, {
+  src: "hexes/tibble.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/tidymodels.png",
+  width: 27.7,
+  height: 32
+}, {
+  src: "hexes/tidyr.png",
+  width: 27.7,
+  height: 32
+}, {
+  src: "hexes/tune.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/workflows.png",
+  width: 27.6,
+  height: 32
+}, {
+  src: "hexes/yardstick.png",
+  width: 27.6,
+  height: 32
+}
       ],
       polygon: {
         nb_sides: 5
