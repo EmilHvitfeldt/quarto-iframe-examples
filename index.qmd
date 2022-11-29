@@ -46,6 +46,15 @@ Hello Matrix
 [Download template](hello-matrix.zip)
 :::
 
+# {background-iframe="ambient/index.html"}
+
+::: {style="background-color: #ffffff33; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Ambient
+:::
+[Download template](ambient.zip)
+:::
+
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
@@ -58,9 +67,7 @@ https://codepen.io/matteobruni/pen/wvjpzKK
 https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/foretoo/pen/zYjpYad
 
-https://codepen.io/MananTank/pen/rNVQKPR
 https://freefrontend.com/javascript-background-effects/
-https://codepen.io/jencrosby/pen/NWxZOyX
 https://codepen.io/toshiya-marukubo/pen/MWyKxEb
 https://codepen.io/trajektorijus/pen/mdeBYrX
 https://codepen.io/pavi2410/pen/oNjGVgM
@@ -84,3 +91,4 @@ From codepen.io
 - Copy over the results from the `dist` folder
 - trim and modify content to your liking
 - Add a README file with references
+- Copy over license
