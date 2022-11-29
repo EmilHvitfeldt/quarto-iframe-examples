@@ -1,0 +1,26 @@
+body {
+  background: black;
+}
+
+.image {
+  background-image: url(earth.png);
+  background-size: contain;
+
+  display: block;
+  margin: 0 auto;
+  width: 150%;
+
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 360s
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
