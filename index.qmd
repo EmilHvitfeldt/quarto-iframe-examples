@@ -95,6 +95,16 @@ Meatballs
 [Download template](meatballs.zip)
 :::
 
+# {background-iframe="tetris/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+tetris
+:::
+
+[Download template](tetris.zip)
+:::
+
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
@@ -106,8 +116,6 @@ https://codepen.io/matteobruni/pen/abGqVwm
 https://codepen.io/matteobruni/pen/wvjpzKK
 https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/foretoo/pen/zYjpYad
-
-https://codepen.io/loktar00/pen/BaGqXY (need to be loaded in private mode)
 
 # How to make your own
 
