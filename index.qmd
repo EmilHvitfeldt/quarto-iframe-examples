@@ -108,14 +108,11 @@ tetris
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
-https://codepen.io/matteobruni/pen/ZExaQyB
 https://codepen.io/matteobruni/pen/yLNpgKW
-https://codepen.io/matteobruni/pen/VwrBOya
 https://codepen.io/matteobruni/pen/ZExLYyg
 https://codepen.io/matteobruni/pen/abGqVwm
-https://codepen.io/matteobruni/pen/wvjpzKK
 https://codepen.io/thepheer/pen/jvMJMd
-https://codepen.io/foretoo/pen/zYjpYad
+https://codepen.io/emilhhvitfeldt/pen/gOKmKLR
 
 # How to make your own
 
