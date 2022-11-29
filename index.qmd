@@ -75,6 +75,16 @@ Moving Waves
 [Download template](moving-waves.zip)
 :::
 
+# {background-iframe="grid-worms/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Grid Worms
+:::
+
+[Download template](grid-worms.zip)
+:::
+
 
 # Other
 
@@ -89,7 +99,6 @@ https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/foretoo/pen/zYjpYad
 
 https://freefrontend.com/javascript-background-effects/
-https://codepen.io/redutron/pen/MWajjbQ
 https://codepen.io/soju22/pen/xxGqJxj
 https://codepen.io/supah/pen/ExabJxB
 https://codepen.io/simeydotme/pen/NWPxKxr
