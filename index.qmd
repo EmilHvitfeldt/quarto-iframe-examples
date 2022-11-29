@@ -55,6 +55,16 @@ Ambient
 [Download template](ambient.zip)
 :::
 
+# {background-iframe="glittering-sea/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Glittering Sea
+:::
+
+[Download template](glittering-sea.zip)
+:::
+
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
@@ -68,7 +78,6 @@ https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/foretoo/pen/zYjpYad
 
 https://freefrontend.com/javascript-background-effects/
-https://codepen.io/toshiya-marukubo/pen/MWyKxEb
 https://codepen.io/trajektorijus/pen/mdeBYrX
 https://codepen.io/pavi2410/pen/oNjGVgM
 https://codepen.io/redutron/pen/MWajjbQ
