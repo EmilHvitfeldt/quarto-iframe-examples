@@ -65,6 +65,17 @@ Glittering Sea
 [Download template](glittering-sea.zip)
 :::
 
+# {background-iframe="moving-waves/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Moving Waves
+:::
+
+[Download template](moving-waves.zip)
+:::
+
+
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
@@ -78,8 +89,6 @@ https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/foretoo/pen/zYjpYad
 
 https://freefrontend.com/javascript-background-effects/
-https://codepen.io/trajektorijus/pen/mdeBYrX
-https://codepen.io/pavi2410/pen/oNjGVgM
 https://codepen.io/redutron/pen/MWajjbQ
 https://codepen.io/soju22/pen/xxGqJxj
 https://codepen.io/supah/pen/ExabJxB
