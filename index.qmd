@@ -14,18 +14,6 @@ source("zip-all-the-things.R")
 
 # Folder structures
 
-# https://particles.js.org/
-
-# {background-iframe="multiple-images/index.html"}
-
-::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
-::: r-fit-text
-Multiple Floating Images
-:::
-
-[Download template](multiple-images.zip)
-:::
-
 # {background-iframe="rotating-earth/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
@@ -115,14 +103,23 @@ boids
 [Download template](boids.zip)
 :::
 
-# Other
+# https://particles.js.org/
 
 https://codepen.io/matteobruni/pen/wvjpzKK
 https://codepen.io/matteobruni/pen/yLNpgKW
 https://codepen.io/matteobruni/pen/ZExLYyg
 https://codepen.io/matteobruni/pen/abGqVwm
-https://codepen.io/thepheer/pen/jvMJMd
 https://codepen.io/emilhhvitfeldt/pen/gOKmKLR
+
+# {background-iframe="multiple-images/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Multiple Floating Images
+:::
+
+[Download template](multiple-images.zip)
+:::
 
 # How to make your own
 
