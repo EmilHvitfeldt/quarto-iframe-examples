@@ -323,32 +323,57 @@
     <div class="slides">
 
 
-<section class="slide level2">
-
+<section>
+<section id="having-fun-with-iframes" class="title-slide slide level1 center">
+<h1>Having fun with iFrames</h1>
 <div class="cell">
 
 </div>
 </section>
-<section id="having-fun-with-iframes" class="title-slide slide level1 center">
-<h1>Having fun with iframes</h1>
-
+<section id="why-should-i-use-iframes" class="slide level2">
+<h2>Why should I use iFrames?</h2>
+<p>In <a href="https://quarto.org/docs/presentations/revealjs/">Quarto Presentations</a> one way to add something extra is to use <a href="https://quarto.org/docs/presentations/revealjs/#slide-backgrounds">Slide Backgrounds</a></p>
+<p>Images and videos are good for some added flair, and they automatically fill the background</p>
+<p>Using html elements and javascript to make an animated background, is almost impossible to get right inside your <code>.qmd</code> file, but super easy with <a href="https://quarto.org/docs/presentations/revealjs/#iframe-backgrounds">iFrame Backgrounds</a></p>
 </section>
-
-<section id="how-it-works" class="title-slide slide level1 center">
-<h1>How it works</h1>
-
+<section id="how-to-use-iframe-backgrounds" class="slide level2">
+<h2>How to use iFrame Backgrounds</h2>
+<ol type="1">
+<li>Add a folder next to your <code>.qmd</code> file</li>
+<li>In that folder add the following files
+<ul>
+<li><code>index.html</code></li>
+<li><code>script.js</code> (optional)</li>
+<li><code>style.css</code> (optional)</li>
+</ul></li>
+<li>Use the following notation to use (title can be empty)</li>
+</ol>
+<div style="font-family: monospace;">
+<p># title {background-iframe=“my-iframe/index.html”}</p>
+</div>
 </section>
-
-<section id="how-to-use-this" class="title-slide slide level1 center">
-<h1>How to use this</h1>
-
+<section id="folder-structures" class="slide level2">
+<h2>Folder Structures</h2>
+<p>This is my preferred setup for a quarto presentation.</p>
+<p>Naming the main file <code>index.qmd</code> gives you <code>index.html</code> as your output which is a good default for publishing</p>
+<div style="font-family: monospace;">
+<p>awesome-presentation/<br>
+├── index.qmd<br>
+├── index.html<br>
+├── style.scss (only styles index.qmd)<br>
+└── my-iframe/<br>
+&nbsp;&nbsp; &nbsp;├── index.html<br>
+&nbsp;&nbsp; &nbsp;├── script.js<br>
+&nbsp;&nbsp; &nbsp;└── style.css (only styles iframe)<br>
+</p>
+</div>
 </section>
-
-<section id="folder-structures" class="title-slide slide level1 center">
-<h1>Folder structures</h1>
-
-</section>
-
+<section id="gallery" class="slide level2">
+<h2>Gallery</h2>
+<p>The following slides contain a number of different iframe for you to use, modify and expand on</p>
+<p>Clicking the download link should give you a folder with everything you need</p>
+<p>Additional entries are welcome at <a href="https://github.com/EmilHvitfeldt/quarto-iframe-examples">EmilHvitfeldt/quarto-iframe-examples</a></p>
+</section></section>
 <section id="section" class="title-slide slide level1 center" data-background-iframe="rotating-earth/index.html">
 <h1></h1>
 <div style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;">
@@ -486,10 +511,10 @@
 
 <section id="how-to-make-your-own" class="title-slide slide level1 center">
 <h1>How to make your own</h1>
-<p>From codepen.io</p>
+<p>From <a href="https://codepen.io">codepen.io</a></p>
 <ul>
 <li>find one you like</li>
-<li>click export, down to the right -&gt; export .zip</li>
+<li>click <code>export -&gt; export .zip</code></li>
 <li>Copy over the results from the <code>dist</code> folder</li>
 <li>trim and modify content to your liking</li>
 <li>Add a README file with references</li>
@@ -676,9 +701,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1280,
 
-        height: 700,
+        height: 720,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,

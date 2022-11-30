@@ -1,20 +1,63 @@
 ---
-format: revealjs
+format: 
+  revealjs:
+    width: 1280
+    height: 720
 ---
+
+# Having fun with iFrames
 
 ```{r}
 source("zip-all-the-things.R")
 ```
 
-# Having fun with iframes
+## Why should I use iFrames?
 
-# How it works
+In [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/) one way to add something extra is to use [Slide Backgrounds](https://quarto.org/docs/presentations/revealjs/#slide-backgrounds)
 
-# How to use this
+Images and videos are good for some added flair, and they automatically fill the background
 
-# Folder structures
+Using html elements and javascript to make an animated background, is almost impossible to get right inside your `.qmd` file, but super easy with [iFrame Backgrounds](https://quarto.org/docs/presentations/revealjs/#iframe-backgrounds)
 
-# {background-iframe="rotating-earth/index.html"}
+## How to use iFrame Backgrounds
+
+1. Add a folder next to your `.qmd` file
+2. In that folder add the following files
+    - `index.html`
+    - `script.js` (optional)
+    - `style.css` (optional)
+3. Use the following notation to use (title can be empty)
+
+::: {style="font-family: monospace;"}
+\# title {background-iframe="my-iframe/index.html"}
+:::
+
+## Folder Structures
+
+This is my preferred setup for a quarto presentation. 
+
+Naming the main file `index.qmd` gives you `index.html` as your output which is a good default for publishing
+
+::: {style="font-family: monospace;"}
+awesome-presentation/\
+├── index.qmd\
+├── index.html\
+├── style.scss (only styles index.qmd)\
+└── my-iframe/\
+\ \  \ ├── index.html\
+\ \  \ ├── script.js\
+\ \  \ └── style.css (only styles iframe)\
+:::
+
+## Gallery
+
+The following slides contain a number of different iframe for you to use, modify and expand on
+
+Clicking the download link should give you a folder with everything you need
+
+Additional entries are welcome at [EmilHvitfeldt/quarto-iframe-examples](https://github.com/EmilHvitfeldt/quarto-iframe-examples)
+
+#  {background-iframe="rotating-earth/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -24,7 +67,7 @@ Rotating Earth
 [Download template](rotating-earth.zip)
 :::
 
-# {background-iframe="hello-matrix/index.html"}
+#  {background-iframe="hello-matrix/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -34,16 +77,17 @@ Hello Matrix
 [Download template](hello-matrix.zip)
 :::
 
-# {background-iframe="ambient/index.html"}
+#  {background-iframe="ambient/index.html"}
 
 ::: {style="background-color: #ffffff33; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
 Ambient
 :::
+
 [Download template](ambient.zip)
 :::
 
-# {background-iframe="glittering-sea/index.html"}
+#  {background-iframe="glittering-sea/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -53,7 +97,7 @@ Glittering Sea
 [Download template](glittering-sea.zip)
 :::
 
-# {background-iframe="moving-waves/index.html"}
+#  {background-iframe="moving-waves/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -63,7 +107,7 @@ Moving Waves
 [Download template](moving-waves.zip)
 :::
 
-# {background-iframe="grid-worms/index.html"}
+#  {background-iframe="grid-worms/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -73,7 +117,7 @@ Grid Worms
 [Download template](grid-worms.zip)
 :::
 
-# {background-iframe="meatballs/index.html"}
+#  {background-iframe="meatballs/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -83,7 +127,7 @@ Meatballs
 [Download template](meatballs.zip)
 :::
 
-# {background-iframe="tetris/index.html"}
+#  {background-iframe="tetris/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -93,7 +137,7 @@ tetris
 [Download template](tetris.zip)
 :::
 
-# {background-iframe="boids/index.html"}
+#  {background-iframe="boids/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -105,7 +149,7 @@ boids
 
 # https://particles.js.org/
 
-# {background-iframe="multiple-images/index.html"}
+#  {background-iframe="multiple-images/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -115,7 +159,7 @@ Multiple Floating Images
 [Download template](multiple-images.zip)
 :::
 
-# {background-iframe="polygon-mask/index.html"}
+#  {background-iframe="polygon-mask/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -125,7 +169,7 @@ Polygon Mask
 [Download template](polygon-mask.zip)
 :::
 
-# {background-iframe="colored-particles/index.html"}
+#  {background-iframe="colored-particles/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -135,7 +179,7 @@ Colored Particles
 [Download template](colored-particles.zip)
 :::
 
-# {background-iframe="logo-fall/index.html"}
+#  {background-iframe="logo-fall/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
@@ -147,11 +191,11 @@ Logo Fall
 
 # How to make your own
 
-From codepen.io
+From [codepen.io](https://codepen.io)
 
-- find one you like
-- click export, down to the right -> export .zip
-- Copy over the results from the `dist` folder
-- trim and modify content to your liking
-- Add a README file with references
-- Copy over license
+-   find one you like
+-   click `export -> export .zip`
+-   Copy over the results from the `dist` folder
+-   trim and modify content to your liking
+-   Add a README file with references
+-   Copy over license
