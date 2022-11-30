@@ -105,6 +105,16 @@ tetris
 [Download template](tetris.zip)
 :::
 
+# {background-iframe="boids/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+boids
+:::
+
+[Download template](boids.zip)
+:::
+
 # Other
 
 https://codepen.io/matteobruni/pen/wvjpzKK
