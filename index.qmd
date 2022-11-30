@@ -105,10 +105,7 @@ boids
 
 # https://particles.js.org/
 
-https://codepen.io/matteobruni/pen/wvjpzKK
-https://codepen.io/matteobruni/pen/yLNpgKW
 https://codepen.io/matteobruni/pen/ZExLYyg
-https://codepen.io/matteobruni/pen/abGqVwm
 https://codepen.io/emilhhvitfeldt/pen/gOKmKLR
 
 # {background-iframe="multiple-images/index.html"}
@@ -119,6 +116,16 @@ Multiple Floating Images
 :::
 
 [Download template](multiple-images.zip)
+:::
+
+# {background-iframe="polygon-mask/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Polygon Mask
+:::
+
+[Download template](polygon-mask.zip)
 :::
 
 # How to make your own
