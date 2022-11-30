@@ -105,8 +105,6 @@ boids
 
 # https://particles.js.org/
 
-https://codepen.io/emilhhvitfeldt/pen/gOKmKLR
-
 # {background-iframe="multiple-images/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
@@ -135,6 +133,16 @@ Colored Particles
 :::
 
 [Download template](colored-particles.zip)
+:::
+
+# {background-iframe="logo-fall/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Logo Fall
+:::
+
+[Download template](logo-fall.zip)
 :::
 
 # How to make your own
