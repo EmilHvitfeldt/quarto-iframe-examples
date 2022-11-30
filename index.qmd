@@ -149,6 +149,8 @@ boids
 
 # https://particles.js.org/
 
+particles.js is a great library that works perfectly as iFrames, and have amazing customization.
+
 #  {background-iframe="multiple-images/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
@@ -161,7 +163,7 @@ Multiple Floating Images
 
 #  {background-iframe="polygon-mask/index.html"}
 
-::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: {style="background-color: #ffffff33; border-radius: 10px; padding: 5px;"}
 ::: r-fit-text
 Polygon Mask
 :::
