@@ -83,7 +83,7 @@ tsParticles.load("tsparticles", {
         sync: false
       },
       random: true,
-      value: 1
+      value: 5
     }
   },
   polygon: {

@@ -5,7 +5,15 @@ format:
     height: 720
 ---
 
-# Having fun with iFrames
+# {background-iframe="colored-particles/index.html"}
+
+::: r-fit-text
+Having fun with
+:::
+
+::: r-fit-text
+iFrames
+:::
 
 ```{r}
 source("zip-all-the-things.R")
@@ -47,6 +55,31 @@ awesome-presentation/\
 \ \  \ ├── index.html\
 \ \  \ ├── script.js\
 \ \  \ └── style.css (only styles iframe)\
+:::
+
+# How to make your own
+
+From [codepen.io](https://codepen.io)
+
+-   find one you like
+-   click `export -> export .zip`
+-   Copy over the results from the `dist` folder
+-   trim and modify content to your liking
+-   Add a README file with references
+-   Copy over license
+
+## https://particles.js.org/
+
+particles.js is a great library that works perfectly as iFrames, and have amazing customization
+
+::: columns
+::: {.column width="50%"}
+<iframe src="polygon-mask/index.html" style="width: 100%; aspect-ratio: 1.2;"></iframe>
+:::
+
+::: {.column width="50%"}
+<iframe src="colored-particles/index.html" style="width: 100%; aspect-ratio: 1.2;"></iframe>
+:::
 :::
 
 ## Gallery
@@ -147,10 +180,6 @@ boids
 [Download template](boids.zip)
 :::
 
-# https://particles.js.org/
-
-particles.js is a great library that works perfectly as iFrames, and have amazing customization.
-
 #  {background-iframe="multiple-images/index.html"}
 
 ::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
@@ -190,14 +219,3 @@ Logo Fall
 
 [Download template](logo-fall.zip)
 :::
-
-# How to make your own
-
-From [codepen.io](https://codepen.io)
-
--   find one you like
--   click `export -> export .zip`
--   Copy over the results from the `dist` folder
--   trim and modify content to your liking
--   Add a README file with references
--   Copy over license
