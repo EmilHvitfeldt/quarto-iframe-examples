@@ -3,6 +3,7 @@ format:
   revealjs:
     width: 1280
     height: 720
+preload-iframes: true
 ---
 
 # {background-iframe="colored-particles/index.html"}
@@ -39,6 +40,8 @@ Using html elements and javascript to make an animated background, is almost imp
 ::: {style="font-family: monospace;"}
 \# title {background-iframe="my-iframe/index.html"}
 :::
+
+4. Set `preload-iframes: true` in yaml
 
 ## Folder Structures
 
