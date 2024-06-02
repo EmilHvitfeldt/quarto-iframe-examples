@@ -1,0 +1,112 @@
+* {
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+
+body {
+  overflow:hidden;
+}
+
+.beach-roadtrip {
+  width: 100vw;
+  height: 100vh;
+}
+.st4 {
+  fill: #486b5c;
+}
+.st5 {
+  opacity: 0.55;
+  fill: #e6d3b0;
+}
+.st6 {
+  fill: #e9f4f2;
+}
+.st10 {
+  fill: #070707;
+}
+.st11 {
+  opacity: 0.05;
+}
+.st12,
+.st13 {
+  fill: #58ac9d;
+}
+.st13 {
+  stroke: #b7eae0;
+  stroke-width: 11;
+  stroke-miterlimit: 10;
+}
+.st14 {
+  opacity: 0.14;
+  fill: #379;
+}
+.st15 {
+  fill: #4c3d38;
+}
+.st16 {
+  opacity: 0.2;
+}
+.st17,
+.st18 {
+  fill: #63524e;
+}
+.st18 {
+  opacity: 0.1;
+}
+.st19 {
+  fill: #594842;
+}
+.st21 {
+  fill: #c1272d;
+}
+.st22 {
+  fill: #f9f9f9;
+}
+.st25 {
+  opacity: 0.89;
+}
+.st26,
+.st28 {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.st28 {
+  stroke: #ededed;
+  stroke-width: 10;
+}
+.st29 {
+  fill: #fff;
+}
+.st30 {
+  fill: #595959;
+}
+.st33 {
+  opacity: 0.1;
+}
+.st34 {
+  opacity: 0.28;
+  fill: none;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.st42 {
+  fill: #f7f3e8;
+}
+.st43 {
+  opacity: 0.09;
+  fill: #1e1e1e;
+}
+.st46 {
+  fill: none;
+  stroke: #2d2824;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.st47 {
+  fill: #785c47;
+}
