@@ -3,7 +3,7 @@ body {
 }
 
 .image {
-  background-image: url(earth.png);
+  background-image: url(earth.webp);
   background-size: contain;
 
   display: block;
