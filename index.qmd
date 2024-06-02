@@ -222,3 +222,105 @@ Logo Fall
 
 [Download template](logo-fall.zip)
 :::
+
+
+#  {background-iframe="center-of-universe/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Center of the Universe
+:::
+
+[Download template](center-of-universe.zip)
+:::
+
+
+
+#  {background-iframe="css-fireworks/index.html"}
+
+::: {style="color: #FFFFFF"}
+::: r-fit-text
+css fireworks
+:::
+
+[Download template](css-fireworks.zip)
+:::
+
+#  {background-iframe="flow-field/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+flow field
+:::
+
+[Download template](flow-field.zip)
+:::
+
+
+#  {background-iframe="hurra/index.html"}
+
+
+[Download template](hurra.zip)
+:::
+
+
+
+
+#  {background-iframe="night-sky/index.html"}
+
+::: {style="color: #ffffffFF;"}
+::: r-fit-text
+Night Sky
+:::
+[Download template](night-sky.zip)
+:::
+
+
+
+
+#  {background-iframe="snowy-landscape/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Snowy Landscape
+:::
+
+[Download template](snowy-landscape.zip)
+:::
+
+
+
+
+#  {background-iframe="space-scroller/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Space Scroller
+:::
+
+[Download template](space-scroller.zip)
+:::
+
+
+#  {background-iframe="stars/index.html"}
+
+::: {style="color: #ffffffFF;"}
+Stars
+
+[Download template](stars.zip)
+:::
+
+
+
+
+#  {background-iframe="beach-crusin/index.html"}
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+Beach Crusin
+
+[Download template](beach-crusin.zip)
+:::
+
+
+
+
